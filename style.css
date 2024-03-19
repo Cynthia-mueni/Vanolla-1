@@ -1,21 +1,27 @@
+
+
+
 .container{
     background-color:green;
     display: flex;
+    gap: 50%;
     flex-direction: row;
     color: white;
 
 }
+.valona{
+    display: flex;
+    gap: 20%;
+}
 .topnav{
-    gap: 5%;
+    gap: 10%;
     display: flex;
     text-align: center;
     padding: 14px 16px;
 }
-.container1{
+.container1{ 
     display: flex;
-    flex-direction: row;
-    
-    
+    flex-direction: row;   
 }
 
 body{
@@ -55,9 +61,111 @@ body{
 }
 .pho{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;    
+}
+button{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    
+}
+.cont{
+    background-image: url('images/green\ plant.avif');
+    background-repeat: no-repeat;
+ align-items: center;
+}
+.num1{
+    display: flex;
+    flex-direction: row;
+}
+.num2{
+    display: flex;
+    flex-direction: row;
+}
+.num3{
+    display: flex;
+    flex-direction: row;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+}
+.container5{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.cont2{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+@media screen  and (min-width: 0px),(max-width:2560px){
+    .page{
+        margin: 0%;
+    
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .valona{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .topnav{
+        display: flex;
+        flex-wrap: wrap;
+    } 
+    .container1{ 
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    #image{
+        height: 90%; ;
+        width: 90%;
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;  
+ }
+    .container3{
+        display: flex;
+        flex-wrap: wrap;
+        
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pho{
+    display: flex;
+    flex-wrap: wrap;
+}
+.num1{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.num2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.num3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont2{
+        display: flex;
+        flex-wrap: wrap;
+}
 }
 
-
-
-    
